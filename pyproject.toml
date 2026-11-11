@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "api-contract-sync-mcp"
+version = "1.2.0"
+description = "Full-Stack Schema Drift Detector & Auto-TypeScript/Zod Generator MCP Server"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+[project.scripts]
+api-contract-sync-mcp = "api_contract_sync_mcp:main"
